@@ -10,7 +10,7 @@
 /*
 commandline call that works:
 
-./main api.coindesk.com 80 GET "/v1/bpi/currentprice.json" "" "Connection: close" "Content-Type: text/html" "Host: api.coindesk.com"
+./cmdlinesocket api.coindesk.com 80 GET "/v1/bpi/currentprice.json" "" "Connection: close" "Content-Type: text/html" "Host: api.coindesk.com"
 
  */
 void error(const char *msg) { perror(msg); exit(0); }

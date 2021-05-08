@@ -8,4 +8,10 @@ sleeps otherwise.
 
 this is just for fun, and no guarantees are made.
 
+get clone https://github.com/bimmerr2019/lnd_watcher.git
+cd lnd_watcher
+make cmdlinesocket
+
+./cmdlinesocket api.coindesk.com 80 GET "/v1/bpi/currentprice.json" "" "Connection: close" "Content-Type: text/html" "Host: api.coindesk.com"
+
 MIT license
